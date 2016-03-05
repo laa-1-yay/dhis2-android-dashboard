@@ -191,6 +191,7 @@ public class MenuActivity extends BaseActivity
 
     private void attachFragment(Fragment fragment) {
         getSupportFragmentManager().beginTransaction()
+                .setCustomAnimations(R.anim.fadein, R.anim.fadeout)
                 .replace(R.id.content_frame, fragment)
                 .commit();
     }

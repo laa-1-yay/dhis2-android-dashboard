@@ -188,6 +188,7 @@ public class DashboardElementDetailActivity extends BaseActivity {
 
     private void attachFragment(Fragment fragment) {
         getSupportFragmentManager().beginTransaction()
+                .setCustomAnimations(R.anim.activity_in, R.anim.activity_out)
                 .replace(R.id.content_frame, fragment)
                 .commit();
     }
