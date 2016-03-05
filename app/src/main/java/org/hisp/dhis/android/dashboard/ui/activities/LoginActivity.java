@@ -36,6 +36,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RelativeLayout;
 
 import com.squareup.okhttp.HttpUrl;
 import com.squareup.otto.Subscribe;
@@ -46,6 +47,7 @@ import org.hisp.dhis.android.dashboard.api.models.UserAccount;
 import org.hisp.dhis.android.dashboard.api.models.meta.Credentials;
 import org.hisp.dhis.android.dashboard.api.models.meta.ResponseHolder;
 import org.hisp.dhis.android.dashboard.api.persistence.preferences.ResourceType;
+import org.hisp.dhis.android.dashboard.utils.Utilities;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -57,6 +59,7 @@ import static org.hisp.dhis.android.dashboard.utils.TextUtils.isEmpty;
 
 public class LoginActivity extends BaseActivity {
     private static final String IS_LOADING = "state:isLoading";
+    RelativeLayout relativeLayout;
 
     @Bind(R.id.log_in_views_container)
     View mViewsContainer;
@@ -84,6 +87,7 @@ public class LoginActivity extends BaseActivity {
 
         hideProgress(false);
         checkEditTextFields();
+        relativeLayout = (RelativeLayout) findViewById(R.id.rootViewLogin);
     }
 
     @Override
@@ -116,17 +120,23 @@ public class LoginActivity extends BaseActivity {
     @OnClick(R.id.log_in_button)
     @SuppressWarnings("unused")
     public void logIn() {
-        showProgress(true);
+        if (Utilities.isNetworkAvailable(getApplicationContext())) {
+            if (!Utilities.isOnline()) {
+                Utilities.showSnackbar(relativeLayout,"Slow Internet Connection !");
+            }
 
-        String serverUrl = mServerUrl.getText().toString();
-        String username = mUsername.getText().toString();
-        String password = mPassword.getText().toString();
+            showProgress(true);
+            String serverUrl = mServerUrl.getText().toString();
+            String username = mUsername.getText().toString();
+            String password = mPassword.getText().toString();
+            HttpUrl serverUri = HttpUrl.parse(serverUrl);
+            getDhisService().logInUser(
+                    serverUri, new Credentials(username, password)
+            );
 
-        HttpUrl serverUri = HttpUrl.parse(serverUrl);
-
-        getDhisService().logInUser(
-                serverUri, new Credentials(username, password)
-        );
+        } else {
+            Utilities.showSnackbar(relativeLayout, "No Internet Connection !");
+        }
     }
 
     @Subscribe

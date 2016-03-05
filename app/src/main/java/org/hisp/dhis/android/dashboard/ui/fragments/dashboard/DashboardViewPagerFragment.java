@@ -30,6 +30,7 @@ package org.hisp.dhis.android.dashboard.ui.fragments.dashboard;
 
 import android.content.Context;
 import android.os.Bundle;
+import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.LoaderManager.LoaderCallbacks;
 import android.support.v4.content.Loader;
@@ -59,6 +60,7 @@ import org.hisp.dhis.android.dashboard.api.persistence.preferences.ResourceType;
 import org.hisp.dhis.android.dashboard.ui.adapters.DashboardAdapter;
 import org.hisp.dhis.android.dashboard.ui.events.UiEvent;
 import org.hisp.dhis.android.dashboard.ui.fragments.BaseFragment;
+import org.hisp.dhis.android.dashboard.utils.Utilities;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -89,10 +91,15 @@ public class DashboardViewPagerFragment extends BaseFragment
     SmoothProgressBar mProgressBar;
 
     DashboardAdapter mDashboardAdapter;
+    CoordinatorLayout coordinatorLayout;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_dashboards, parent, false);
+
+        View rootView = inflater.inflate(R.layout.fragment_dashboards,parent, false);
+        coordinatorLayout = (CoordinatorLayout) rootView.findViewById(R.id.coordinatorLayoutViewPager);
+
+        return rootView;
     }
 
     @Override
@@ -117,7 +124,14 @@ public class DashboardViewPagerFragment extends BaseFragment
         if (isDhisServiceBound() &&
                 !getDhisService().isJobRunning(DhisService.SYNC_DASHBOARDS) &&
                 !SessionManager.getInstance().isResourceTypeSynced(ResourceType.DASHBOARDS)) {
-            syncDashboards();
+            if (Utilities.isNetworkAvailable(getActivity())) {
+                if (!Utilities.isOnline()) {
+                    Utilities.showSnackbar(coordinatorLayout, "Slow Internet Connection !");
+                }
+                syncDashboards();
+            } else {
+                Utilities.showSnackbar(coordinatorLayout, "No Internet Connection !");
+            }
         }
 
         boolean isLoading = isDhisServiceBound() &&
@@ -230,7 +244,14 @@ public class DashboardViewPagerFragment extends BaseFragment
                 return true;
             }
             case R.id.refresh: {
-                syncDashboards();
+                if (Utilities.isNetworkAvailable(getActivity())) {
+                    if (!Utilities.isOnline()) {
+                        Utilities.showSnackbar(coordinatorLayout, "Slow Internet Connection !");
+                    }
+                    syncDashboards();
+                } else {
+                    Utilities.showSnackbar(coordinatorLayout, "No Internet Connection !");
+                }
                 return true;
             }
             case R.id.add_dashboard: {
@@ -278,4 +299,5 @@ public class DashboardViewPagerFragment extends BaseFragment
             return dashboards;
         }
     }
+
 }
