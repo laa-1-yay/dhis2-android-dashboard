@@ -56,9 +56,11 @@ import org.hisp.dhis.android.dashboard.api.network.SessionManager;
 import org.hisp.dhis.android.dashboard.api.persistence.loaders.DbLoader;
 import org.hisp.dhis.android.dashboard.api.persistence.loaders.Query;
 import org.hisp.dhis.android.dashboard.api.persistence.preferences.ResourceType;
+import org.hisp.dhis.android.dashboard.api.utils.NetworkUtils;
 import org.hisp.dhis.android.dashboard.ui.adapters.DashboardAdapter;
 import org.hisp.dhis.android.dashboard.ui.events.UiEvent;
 import org.hisp.dhis.android.dashboard.ui.fragments.BaseFragment;
+import org.hisp.dhis.android.dashboard.utils.CustomSnackbar;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -70,7 +72,7 @@ import fr.castorflex.android.smoothprogressbar.SmoothProgressBar;
 
 public class DashboardViewPagerFragment extends BaseFragment
         implements LoaderCallbacks<List<Dashboard>>, View.OnClickListener,
-        ViewPager.OnPageChangeListener {
+        ViewPager.OnPageChangeListener, NetworkUtils.NetworkCallBack {
 
     static final String TAG = DashboardViewPagerFragment.class.getSimpleName();
     static final String IS_LOADING = "state:isLoading";
@@ -263,6 +265,13 @@ public class DashboardViewPagerFragment extends BaseFragment
         if (result.getResourceType() == ResourceType.DASHBOARDS) {
             mProgressBar.setVisibility(View.INVISIBLE);
         }
+    }
+
+    // Callback for No internet connection
+    NetworkUtils networkUtils = new NetworkUtils(this);
+    @Override
+    public void networkCallback() {
+        CustomSnackbar.showSnackbar(this.getView(),"No internet Connection !");
     }
 
     private static class DashboardQuery implements Query<List<Dashboard>> {
