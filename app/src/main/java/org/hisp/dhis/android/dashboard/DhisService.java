@@ -42,6 +42,7 @@ import org.hisp.dhis.android.dashboard.api.models.meta.Credentials;
 import org.hisp.dhis.android.dashboard.api.network.APIException;
 import org.hisp.dhis.android.dashboard.api.persistence.preferences.ResourceType;
 import org.hisp.dhis.android.dashboard.api.utils.EventBusProvider;
+import org.hisp.dhis.android.dashboard.api.utils.NetworkUtils;
 import org.hisp.dhis.android.dashboard.ui.events.UiEvent;
 
 /**
@@ -135,12 +136,18 @@ public final class DhisService extends Service {
 
             @Override
             public Object execute() throws APIException {
-                mDhisController.syncDashboardContent();
-                mDhisController.syncDashboards();
-                return new Object();
+                try {
+                    mDhisController.syncDashboardContent();
+                    mDhisController.syncDashboards();
+                    return new Object();
+                }catch (APIException e){
+                    NetworkUtils.handleApiException(e);
+                }
+                return null;
             }
         });
     }
+
 
     public void syncDashboards() {
         JobExecutor.enqueueJob(new NetworkJob<Object>(SYNC_DASHBOARDS,
@@ -148,8 +155,13 @@ public final class DhisService extends Service {
 
             @Override
             public Object execute() throws APIException {
-                mDhisController.syncDashboards();
-                return new Object();
+                try {
+                    mDhisController.syncDashboards();
+                    return new Object();
+                }catch (APIException e){
+                    NetworkUtils.handleApiException(e);
+                }
+                return null;
             }
         });
     }
