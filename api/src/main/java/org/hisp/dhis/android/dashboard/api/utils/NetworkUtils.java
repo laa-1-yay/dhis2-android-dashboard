@@ -45,6 +45,15 @@ public class NetworkUtils {
         // no instances
     }
 
+    public interface NetworkCallBack {
+         void networkCallback();
+    }
+    static NetworkCallBack networkCallBack;
+
+    public NetworkUtils(NetworkCallBack networkCallBack) {
+        NetworkUtils.networkCallBack = networkCallBack;
+    }
+
     public static <T> List<T> unwrapResponse(Map<String, List<T>> response, String key) {
         if (response != null && response.containsKey(key) && response.get(key) != null) {
             return response.get(key);
@@ -132,7 +141,7 @@ public class NetworkUtils {
                 break;
             }
             case NETWORK: {
-                // Retry later.
+                networkCallBack.networkCallback();
                 break;
             }
             case CONVERSION:
