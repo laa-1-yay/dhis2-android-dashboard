@@ -43,6 +43,7 @@ import org.hisp.dhis.android.dashboard.api.network.APIException;
 import org.hisp.dhis.android.dashboard.api.persistence.preferences.ResourceType;
 import org.hisp.dhis.android.dashboard.api.utils.EventBusProvider;
 import org.hisp.dhis.android.dashboard.ui.events.UiEvent;
+import org.hisp.dhis.android.dashboard.utils.INetworkCallBack;
 
 /**
  * @author Araz Abishov <araz.abishov.gsoc@gmail.com>.
@@ -57,6 +58,7 @@ public final class DhisService extends Service {
 
     private final IBinder mBinder = new ServiceBinder();
     private DhisController mDhisController;
+    private INetworkCallBack iNetworkCallBack;
 
     @Override
     public void onCreate() {
@@ -123,8 +125,15 @@ public final class DhisService extends Service {
 
             @Override
             public Object execute() throws APIException {
-                mDhisController.syncDashboardContent();
-                return new Object();
+                try {
+                    mDhisController.syncDashboardContent();
+                    return new Object();
+                }catch (APIException e){
+                    if(e.getKind().equals(APIException.Kind.NETWORK)){
+                        callNetworkCallback();
+                    }
+                }
+                return null;
             }
         });
     }
@@ -135,9 +144,16 @@ public final class DhisService extends Service {
 
             @Override
             public Object execute() throws APIException {
-                mDhisController.syncDashboardContent();
-                mDhisController.syncDashboards();
-                return new Object();
+                try {
+                    mDhisController.syncDashboardContent();
+                    mDhisController.syncDashboards();
+                    return new Object();
+                }catch (APIException e){
+                    if(e.getKind().equals(APIException.Kind.NETWORK)){
+                     callNetworkCallback();
+                    }
+                }
+                return null;
             }
         });
     }
@@ -167,5 +183,15 @@ public final class DhisService extends Service {
 
     public boolean isJobRunning(int jobId) {
         return JobExecutor.isJobRunning(jobId);
+    }
+
+    public void setNetworkCallback(INetworkCallBack nCallback){
+        iNetworkCallBack = nCallback;
+    }
+
+    private void callNetworkCallback(){
+        if(iNetworkCallBack!=null){
+            iNetworkCallBack.networkCallback();
+        }
     }
 }
