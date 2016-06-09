@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="dhis2-support-commons-1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hisp.dhis/dhis2-support-commons/1.1/f30284e0e6eafca1a269d95861a43b73f9f8c0a8/dhis2-support-commons-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hisp.dhis/dhis2-support-commons/1.1/459ba5999cd6f0f825c84220a06537aec55a6fe9/dhis2-support-commons-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

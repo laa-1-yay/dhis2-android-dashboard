@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dhis2-android-sdk/core/core.iml" filepath="$PROJECT_DIR$/../dhis2-android-sdk/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dhis2-android-sdk/core-android/core-android.iml" filepath="$PROJECT_DIR$/../dhis2-android-sdk/core-android/core-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dhis2-android-sdk/core-rules/core-rules.iml" filepath="$PROJECT_DIR$/../dhis2-android-sdk/core-rules/core-rules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dhis2-android-dashboard.iml" filepath="$PROJECT_DIR$/dhis2-android-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dhis2-android-sdk/models/models.iml" filepath="$PROJECT_DIR$/../dhis2-android-sdk/models/models.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dhis2-android-sdk/ui/ui.iml" filepath="$PROJECT_DIR$/../dhis2-android-sdk/ui/ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dhis2-android-sdk/ui-bindings/ui-bindings.iml" filepath="$PROJECT_DIR$/../dhis2-android-sdk/ui-bindings/ui-bindings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dhis2-android-sdk/utils/utils.iml" filepath="$PROJECT_DIR$/../dhis2-android-sdk/utils/utils.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_f55c63f240ace3ae19493d7b59ff4f97e04fdf7b/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.1.4/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ad5bb101ced4d3939225c9b57e5a3d81547c1fbb">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-beta-1.1.4_15ba5689b62cf5d6b3fed4be2a117a99e972e4a3/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_98bb90ff648f022f68a39459777d9b988f9ed00f/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.5.5/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="611605b6b640c1558f9bdea41de8ff837ab68ca8">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-2.5.5_180669c8a3ffe7e2c05f189c2f9913b019bdba08/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="68161e62e5b77d529c38c3dfe1a6d7f465560987">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f540a4664fd2e5f94847e96c3352e92c983a4b29/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_2824f025a1020af593ddc3efa5f6582f74da58a8/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.github.castorflex.smoothprogressbar/library-circular/1.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e6e5cb683c74a95072d8fbf47a997e64546fc284">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.castorflex.smoothprogressbar-library-circular-1.2.0_b4babd130e0f9a537f94cdf6e44a32bbf4c5fc20/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.4.0_995ee996044ad9e26b49196f07840a39b73c406b/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/.gradle/caches/modules-2/files-2.1/com.github.Raizlabs.DBFlow/dbflow-core/3.0.0-beta5/25f731527e77fec5e8ddcefda575d32656922a7d/dbflow-core-3.0.0-beta5.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="25f731527e77fec5e8ddcefda575d32656922a7d">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/dbflow-core-3.0.0-beta5_8af70f1c343313c4565c81e3c490a05822631188/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.7.4/b8f38a249116b66d804a5ca2b14a3459b7913a94/jackson-core-2.7.4.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b8f38a249116b66d804a5ca2b14a3459b7913a94">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.7.4_28138ad8aeae209b48ab75d88b6e13fb005154b1/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.android.support/preference-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="b954d8588de65c67c1ec482678620845bbb5f737">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-preference-v7-23.4.0_5dde1a58dc7d6196a3f2cf7ee49683075c13869b/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.0/748f0546d5c3c27f1aef07270ffea0c45f0c42a4/rxjava-1.1.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="748f0546d5c3c27f1aef07270ffea0c45f0c42a4">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.0_ee519b6b4bcdac0fcc9931952dc658f0ac3f3611/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_cef96b0f8f66c5f2a9598423cc05bf5b4ab05bac/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-jexl/2.1.1/6ecc181debade00230aa1e17666c4ea0371beaaa/commons-jexl-2.1.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6ecc181debade00230aa1e17666c4ea0371beaaa">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-jexl-2.1.1_a41b3ac23559589a1c527785037b1ea778028c96/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/.gradle/caches/modules-2/files-2.1/org.hisp.dhis/dhis2-support-commons/1.1/f30284e0e6eafca1a269d95861a43b73f9f8c0a8/dhis2-support-commons-1.1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f30284e0e6eafca1a269d95861a43b73f9f8c0a8">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/dhis2-support-commons-1.1_8dfb08adb630e5b340a4d656e38327683d3a4dcb/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.github.chrisbanes/PhotoView/1.2.6/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e39dd45427d2ba136c82ed1946f80dd3dff16695">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.chrisbanes-PhotoView-1.2.6_a928aa4e3d634bfa7bcfd653e96e3d7db783672a/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.github.Raizlabs.DBFlow/dbflow/3.0.0-beta5/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1c22a78d3134f31a72ab20f24f1736906f1da611">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.Raizlabs.DBFlow-dbflow-3.0.0-beta5_df2d5edff38d423dc17765d87b56b82413995cfc/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-jackson/2.0.0/9506825ddc5a43b38a3d104db913ff0f4cb2e323/converter-jackson-2.0.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9506825ddc5a43b38a3d104db913ff0f4cb2e323">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-jackson-2.0.0_03cba42d45da473b15a29c80c8ddd5696a695ec9/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.8/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="c9ef45dcbd082cd63aac09a5e2cd443adb5df837">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-core-2.3.8_354fadb619125217193db9b0dcaff067ca0a9a56/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.2.0_b5d9018074e609d870e78678dbccc486d9816584/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-joda/2.7.4/9de8e9421871deabb70fac34f3080237d0a12ac7/jackson-datatype-joda-2.7.4.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9de8e9421871deabb70fac34f3080237d0a12ac7">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-datatype-joda-2.7.4_85d5cf05625bda12d70f4f769c91f634fac1c309/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.6/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9af3b9b8114e685291aa00e6572b0a9131244956">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-answers-1.3.6_812f4b45e03038ec3441b44417873e6e795d8b08/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.github.Raizlabs.DBFlow/dbflow-sqlcipher/3.0.0-beta5/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3259450c2ad06389313a883be6dc0dc0fe975ffb">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.Raizlabs.DBFlow-dbflow-sqlcipher-3.0.0-beta5_e46bb2436f831eafbd2ddb59799bd920ab46eb49/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_09d4d693d917e93545e6385ec02c6fedd9a280d2/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-23.4.0_527e387f3b33a23deaa687d21acceeb75b478b30/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.9.2/36d6e77a419cb455e6fd5909f6f96b168e21e9d0/joda-time-2.9.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="36d6e77a419cb455e6fd5909f6f96b168e21e9d0">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/joda-time-2.9.2_bdd4fa4ef91e4f5cc5d21f8aeb0993d14c2a1945/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.2/febfd2d9e89bde4c3a9723bcd9522cba96bddac7/dagger-2.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="febfd2d9e89bde4c3a9723bcd9522cba96bddac7">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/dagger-2.2_397ab7038cbb302e84def1fafc2b17b1016e6643/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_e4b0cc0d44b650f98412f3bc4cb01d5cd1e3d0ad/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.0/5c06d197fb7fa875ad452f562e3310dd9949d066/retrofit-2.0.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5c06d197fb7fa875ad452f562e3310dd9949d066">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.0.0_6d09aceaabdf69b028f0979ced841b965ac37709/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_e4bd603cb739d49b375265bf738808956c83cd30/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.10/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a5db9a2dd46d84285ef737f65030b74b6e8ee2a4">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.fabric.sdk.android-fabric-1.3.10_16dd9c886cbaf8d5a316fee52aeeddd635b1b73a/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.0/f1e24ac977505d1fdcabadaa5be1f41dc11c4286/butterknife-7.0.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f1e24ac977505d1fdcabadaa5be1f41dc11c4286">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-7.0.0_92ddb794c96bbb3c26cc2ab49a827405fa6b7237/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.7.4/1e9c6f3659644aeac84872c3b62d8e363bf4c96d/jackson-databind-2.7.4.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1e9c6f3659644aeac84872c3b62d8e363bf4c96d">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.7.4_e833a2d3c3ad01c2b109a7e29dc9252926610e7c/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.inject-1_74df57bb1bc35a0a3414b01498dca32d50b7ae38/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/net.zetetic/android-database-sqlcipher/3.3.1-2/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="71963ad1a5e10fbe011c24da87de8bbdbda18b73">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/net.zetetic-android-database-sqlcipher-3.3.1-2_5c7862b630202d9127c1118c405787ff9ea15379/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex-rxandroid-1.1.0_0f7195044aa4dd0dae261d7c85f969c8067e14ff/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.4/5fe28b9518e58819180a43a850fbc0dd24b7c050/commons-lang3-3.4.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="5fe28b9518e58819180a43a850fbc0dd24b7c050">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-lang3-3.4_87cb7092384db1cd920ed2cb4f834f5bf970fa05/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math3/3.6/825c90790e83af784be1de0a3f3a9f066cf884b9/commons-math3-3.6.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="825c90790e83af784be1de0a3f3a9f066cf884b9">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-math3-3.6_734e9162b772b17af7e7576ad105cea6f28fa4c3/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.android.support/percent/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="91c2541305eec5a688f3a60529d974e48f77d760">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-percent-23.4.0_28b760fa43ec89476766f0eb33a829d7be8f42c2/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="2d61c6898e6ba69003c5c676450d5b1b6e8e0ad2">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e267b53ba81f2241407b862222a3a99293a3523b/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_94ceac888300038b2b394abca809fb7f0205b05e/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.2.0/a56f28d5b7fab623c6c1d2afa08dd496d873ac21/logging-interceptor-3.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a56f28d5b7fab623c6c1d2afa08dd496d873ac21">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.2.0_23db8b00940d686e9544e3eeb711e445c81d093d/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.github.castorflex.smoothprogressbar/library/1.1.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1b42b57cacd24838e3341d5f3cd2035226ef2867">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.castorflex.smoothprogressbar-library-1.1.0_f8a301be714f768802088dad35295f59d57e144b/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.android.support/preference-v14/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="eed10ec61f86abc0d4d4e0123919fd77135eaca6">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-preference-v14-23.4.0_6b9c686f549719f8a21a3202efcc2e8e0aa34353/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_6e090d02ee3589cb395fa8f4dacf54ea34234074/classes.dex" />
+    </item>
+    <item
+        jar="/home/practo/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.7.4/84b2f8e53bd8a077d402bc99d9bce816c2b2d0f9/jackson-annotations-2.7.4.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="84b2f8e53bd8a077d402bc99d9bce816c2b2d0f9">
+        <dex dex="/home/practo/Github/g/dhis2-android-dashboard/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.7.4_5caff916dc470fdb368d0d52dd9263a9bdd35a35/classes.dex" />
+    </item>
+
+</items>

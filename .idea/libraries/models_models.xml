@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="models.models">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../dhis2-android-sdk/models/build/libs/models.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
