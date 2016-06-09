@@ -78,6 +78,10 @@ android {
     dexOptions {
         javaMaxHeapSize "2g"
     }
+
+    lintOptions {
+        disable 'RtlSymmetry', 'RtlHardcoded', 'ContentDescription'
+    }
 }
 
 dependencies {
@@ -91,23 +95,30 @@ dependencies {
 
     // Google
     compile "com.android.support:appcompat-v7:${libs.supportVersion}"
+    compile "com.android.support:design:${libs.supportVersion}"
+    compile "com.android.support:recyclerview-v7:${libs.supportVersion}"
 
-    // Dagger dependencies
-    provided "com.google.dagger:dagger-compiler:${libs.dagger}"
-    apt "com.google.dagger:dagger-compiler:${libs.dagger}"
-    compile "com.google.dagger:dagger:${libs.dagger}"
+     // Dagger dependencies
+     provided "com.google.dagger:dagger-compiler:${libs.dagger}"
+     apt "com.google.dagger:dagger-compiler:${libs.dagger}"
+     compile "com.google.dagger:dagger:${libs.dagger}"
 
     // Smooth progress bar:
     compile "com.github.castorflex.smoothprogressbar:library:${libs.smoothProgressBarVersion}"
+    compile "com.github.castorflex.smoothprogressbar:library-circular:${libs.smoothProgressBarCircularVersion}"
 
     // Square/Jake Wharton
-    compile "com.jakewharton.timber:timber:${libs.timberVersion}"
-    compile "com.squareup.okhttp3:logging-interceptor:${libs.okhttpVersion}"
+    compile 'com.jakewharton:butterknife:7.0.0'
+//    compile "com.jakewharton.timber:timber:${libs.timberVersion}"
+//    compile "com.squareup.okhttp3:logging-interceptor:${libs.okhttpVersion}"
 
     // Fabric
     compile("com.crashlytics.sdk.android:crashlytics:${libs.crashlyticsVersion}@aar") {
         transitive = true;
     }
+
+    // Zoomable photoView
+    compile "com.github.chrisbanes:PhotoView:${libs.photoViewVersion}"
 
     // Multidex:
     compile "com.android.support:multidex:${libs.multidex}"
